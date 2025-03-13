@@ -1,0 +1,51 @@
+:root {
+  --black: rgb(66, 66, 66);
+  --white: white;
+}
+    .wrapper-item {
+        max-width: 1280px;
+        min-width: 900px;
+        margin:20px auto 60px auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        color: white;
+        background-color: var(--black);
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(242, 242, 242);
+    }
+
+    ul {
+        min-height: 600px;
+        list-style: none;
+        border: 4px double white;
+        padding: 40px;
+        margin-bottom: 20px;
+    }
+
+    li {
+        border: 4px double white;
+        padding: 10px;
+        margin: 15px 0;
+    }
+
+    .button {
+        padding: 10px;
+        margin: 10px 10px;
+        border: none;
+        background-color: var(--white);
+    }
+
+    .button-text {
+        color: var(--black);
+        font-weight: bold;
+    }

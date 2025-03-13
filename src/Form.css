@@ -1,0 +1,46 @@
+:root {
+  --black: rgb(66, 66, 66);
+  --white: white;
+}
+    .wrapper-item-form {
+        max-width: 500px;
+        margin:40px auto 30px auto;
+        text-align: center;
+        align-items: center;
+        padding: 20px;
+        border: 4px double white;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        color: white;
+        background-color: var(--black);
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(242, 242, 242);
+    }
+
+    .label {
+      margin-bottom: 10px;
+    }
+
+    textarea, input {
+      width: 40%;
+    }
+
+    .button {
+        padding: 10px;
+        margin: 10px 10px;
+        border: none;
+        background-color: var(--white);
+    }
+
+    .button-text {
+        color: var(--black);
+        font-weight: bold;
+    }
