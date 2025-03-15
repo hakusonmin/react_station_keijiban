@@ -16,6 +16,7 @@ function ThreadList() {
             const data = await response.json();
             setThreads(data);
         };
+        //ここで実行
         fetchThreads();
     }, []);
 
